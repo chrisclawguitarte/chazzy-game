@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img">
+  <title>Zeus mythology portrait asset</title>
+  <defs>
+    <radialGradient id="aura" cx="50%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#f7f0a2"/>
+      <stop offset="58%" stop-color="#5874c5"/>
+      <stop offset="100%" stop-color="#1d275c"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#fff2b7"/>
+      <stop offset="48%" stop-color="#d9a441"/>
+      <stop offset="100%" stop-color="#7c4b16"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="56" fill="url(#aura)"/>
+  <g opacity="0.28">
+    <path d="M70 418h372v38H70z" fill="#fff6ca"/>
+    <path d="M96 156h44v248H96zM372 156h44v248h-44z" fill="#fff6ca"/>
+    <path d="M76 128h360l-24 34H100z" fill="#fff6ca"/>
+  </g>
+  <g transform="rotate(230 256 256)" opacity="0.48">
+    <path d="M256 38l16 56 55-18-30 50 48 33-58 6 5 59-36-47-36 47 5-59-58-6 48-33-30-50 55 18z" fill="#ffffff"/>
+    <circle cx="104" cy="245" r="10" fill="#ffffff"/>
+    <circle cx="409" cy="279" r="8" fill="#ffffff"/>
+    <circle cx="356" cy="101" r="7" fill="#ffffff"/>
+  </g>
+  <circle cx="256" cy="262" r="158" fill="#11162f" opacity="0.38"/>
+  <circle cx="256" cy="250" r="139" fill="none" stroke="url(#gold)" stroke-width="14"/>
+  <g filter="url(#shadow)">
+    <path d="M174 372c14-70 47-108 82-108s68 38 82 108z" fill="#f8dfac"/>
+    <circle cx="256" cy="204" r="67" fill="#ffe0ac"/>
+    <path d="M188 204c8-64 45-98 76-98 42 0 76 42 76 98-40-25-94-24-152 0z" fill="#1d275c"/>
+    <path d="M166 380c24-44 54-70 90-70s66 26 90 70z" fill="#5874c5"/>
+    <circle cx="230" cy="204" r="8" fill="#2d1e19"/>
+    <circle cx="282" cy="204" r="8" fill="#2d1e19"/>
+    <path d="M229 237c20 16 38 16 58 0" fill="none" stroke="#7e4931" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <circle cx="256" cy="112" r="56" fill="url(#gold)" opacity="0.96"/>
+  <text x="256" y="132" text-anchor="middle" font-size="58" font-family="Georgia, 'Times New Roman', serif" font-weight="900" fill="#231707">⚡</text>
+  <path d="M77 450c96-26 262-26 358 0" fill="none" stroke="#ffe9a8" stroke-width="6" opacity="0.68" stroke-linecap="round"/>
+</svg>

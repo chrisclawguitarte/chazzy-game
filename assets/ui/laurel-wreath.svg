@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img">
+  <title>Golden laurel wreath</title>
+  <defs>
+    <linearGradient id="leaf" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#fff4a6"/>
+      <stop offset="60%" stop-color="#d5a536"/>
+      <stop offset="100%" stop-color="#7b5218"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#6d4918" stroke-width="12" opacity=".5"/>
+  <g fill="url(#leaf)">
+    <ellipse cx="172.0" cy="398" rx="19" ry="42" transform="rotate(-58 172.0 398)"/><ellipse cx="340.0" cy="398" rx="19" ry="42" transform="rotate(58 340.0 398)"/><ellipse cx="149.0" cy="376" rx="19" ry="42" transform="rotate(-55 149.0 376)"/><ellipse cx="363.0" cy="376" rx="19" ry="42" transform="rotate(55 363.0 376)"/><ellipse cx="131.6" cy="354" rx="19" ry="42" transform="rotate(-52 131.6 354)"/><ellipse cx="380.4" cy="354" rx="19" ry="42" transform="rotate(52 380.4 354)"/><ellipse cx="124.1" cy="332" rx="19" ry="42" transform="rotate(-49 124.1 332)"/><ellipse cx="387.9" cy="332" rx="19" ry="42" transform="rotate(49 387.9 332)"/><ellipse cx="128.4" cy="310" rx="19" ry="42" transform="rotate(-46 128.4 310)"/><ellipse cx="383.6" cy="310" rx="19" ry="42" transform="rotate(46 383.6 310)"/><ellipse cx="143.3" cy="288" rx="19" ry="42" transform="rotate(-43 143.3 288)"/><ellipse cx="368.7" cy="288" rx="19" ry="42" transform="rotate(43 368.7 288)"/><ellipse cx="165.2" cy="266" rx="19" ry="42" transform="rotate(-40 165.2 266)"/><ellipse cx="346.8" cy="266" rx="19" ry="42" transform="rotate(40 346.8 266)"/><ellipse cx="188.8" cy="244" rx="19" ry="42" transform="rotate(-37 188.8 244)"/><ellipse cx="323.2" cy="244" rx="19" ry="42" transform="rotate(37 323.2 244)"/><ellipse cx="208.3" cy="222" rx="19" ry="42" transform="rotate(-34 208.3 222)"/><ellipse cx="303.7" cy="222" rx="19" ry="42" transform="rotate(34 303.7 222)"/><ellipse cx="218.9" cy="200" rx="19" ry="42" transform="rotate(-31 218.9 200)"/><ellipse cx="293.1" cy="200" rx="19" ry="42" transform="rotate(31 293.1 200)"/><ellipse cx="218.0" cy="178" rx="19" ry="42" transform="rotate(-28 218.0 178)"/><ellipse cx="294.0" cy="178" rx="19" ry="42" transform="rotate(28 294.0 178)"/><ellipse cx="205.9" cy="156" rx="19" ry="42" transform="rotate(-25 205.9 156)"/><ellipse cx="306.1" cy="156" rx="19" ry="42" transform="rotate(25 306.1 156)"/><ellipse cx="185.4" cy="134" rx="19" ry="42" transform="rotate(-22 185.4 134)"/><ellipse cx="326.6" cy="134" rx="19" ry="42" transform="rotate(22 326.6 134)"/><ellipse cx="161.7" cy="112" rx="19" ry="42" transform="rotate(-19 161.7 112)"/><ellipse cx="350.3" cy="112" rx="19" ry="42" transform="rotate(19 350.3 112)"/><ellipse cx="140.5" cy="90" rx="19" ry="42" transform="rotate(-16 140.5 90)"/><ellipse cx="371.5" cy="90" rx="19" ry="42" transform="rotate(16 371.5 90)"/>
+  </g>
+  <path d="M145 404c63 52 159 52 222 0" fill="none" stroke="#d5a536" stroke-width="16" stroke-linecap="round"/>
+  <path d="M220 416l36 52 36-52" fill="#c88e2f"/>
+</svg>

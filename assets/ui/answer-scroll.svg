@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+  <title>Answer scroll accent</title>
+  <path d="M44 30h272v160H44z" fill="#f5d68c" opacity=".36"/>
+  <path d="M64 70h232M64 112h180M64 154h216" stroke="#8b5c25" stroke-width="14" stroke-linecap="round" opacity=".25"/>
+  <path d="M44 30c-42 0-42 54 0 54h36V30zM316 136h-36v54h36c42 0 42-54 0-54z" fill="#d49a3a" opacity=".5"/>
+</svg>

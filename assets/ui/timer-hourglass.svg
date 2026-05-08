@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img">
+  <title>Hourglass timer</title>
+  <path d="M34 10h60M34 118h60" stroke="#ffe7a3" stroke-width="12" stroke-linecap="round"/>
+  <path d="M42 18c0 28 15 34 28 46-13 12-28 18-28 46h44c0-28-15-34-28-46 13-12 28-18 28-46z" fill="#251d3c" stroke="#d59a32" stroke-width="8"/>
+  <path d="M52 32h24c-3 11-9 18-12 22-3-4-9-11-12-22zM64 76c10 8 17 16 18 27H46c1-11 8-19 18-27z" fill="#ffe29a"/>
+</svg>

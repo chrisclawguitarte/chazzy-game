@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greek Mythology Guesser</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="module" src="./src/game.js"></script>
+  </head>
+  <body>
+    <main class="app-shell" aria-live="polite">
+      <section id="setup-screen" class="screen setup-screen">
+        <img
+          class="pediment"
+          src="./assets/ui/main-menu-pediment.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <p class="eyebrow">Olympus Party Challenge</p>
+        <h1>Greek Mythology Guesser</h1>
+        <p class="tagline">
+          Listen to a clue, shout the Greek god or Titan, then award the point to the player who got it right.
+        </p>
+
+        <div class="setup-card">
+          <h2>Choose players</h2>
+          <fieldset class="player-count" aria-label="Number of players">
+            <legend>How many heroes are playing?</legend>
+            <label><input type="radio" name="player-count" value="1" checked /> 1 Player</label>
+            <label><input type="radio" name="player-count" value="2" /> 2 Players</label>
+            <label><input type="radio" name="player-count" value="3" /> 3 Players</label>
+            <label><input type="radio" name="player-count" value="4" /> 4 Players</label>
+          </fieldset>
+
+          <div>
+            <h3>Player names</h3>
+            <div id="name-fields" class="name-fields"></div>
+          </div>
+
+          <button id="start-game" class="primary-button">Start 10-Round Quest</button>
+        </div>
+      </section>
+
+      <section id="game-screen" class="screen game-screen hidden">
+        <header class="game-header">
+          <div>
+            <p id="round-label" class="eyebrow">Round 1 of 10</p>
+            <h2>Who is this mythic figure?</h2>
+          </div>
+          <div class="timer-card" aria-label="Countdown timer">
+            <img src="./assets/ui/timer-hourglass.svg" alt="" aria-hidden="true" />
+            <span id="timer">30</span>
+          </div>
+        </header>
+
+        <section class="challenge-card">
+          <div class="mystery-frame">
+            <img id="figure-image" src="./assets/ui/mystery-scroll.svg" alt="Mystery scroll" />
+          </div>
+          <div class="challenge-copy">
+            <p id="clue-kind" class="kind-pill">Greek myth clue</p>
+            <p id="clue-text" class="clue-text"></p>
+            <div id="answer-panel" class="answer-panel hidden">
+              <p class="answer-label">Answer</p>
+              <p id="answer-text" class="answer-text"></p>
+            </div>
+            <div class="round-actions">
+              <button id="reveal-answer" class="secondary-button">Reveal answer early</button>
+              <button id="next-round" class="primary-button hidden" disabled>Next round</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="score-award" class="score-award hidden">
+          <h3>Who earns the point?</h3>
+          <div id="award-buttons" class="award-buttons"></div>
+          <p id="award-status" class="award-status"></p>
+        </section>
+
+        <section class="scoreboard">
+          <h3>Scoreboard</h3>
+          <div id="score-list" class="score-list"></div>
+        </section>
+      </section>
+
+      <section id="result-screen" class="screen result-screen hidden">
+        <p class="eyebrow">Quest complete</p>
+        <h2>Laurel Wreath Ceremony</h2>
+        <img class="laurel" src="./assets/ui/laurel-wreath.svg" alt="Golden laurel wreath" />
+        <p id="winner-line" class="winner-line"></p>
+        <div id="final-scores" class="final-scores"></div>
+        <p id="menu-countdown" class="menu-countdown"></p>
+        <button id="return-menu" class="primary-button">Return to Main Menu</button>
+      </section>
+    </main>
+  </body>
+</html>

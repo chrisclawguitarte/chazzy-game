@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18244f"/>
+      <stop offset="48%" stop-color="#41316f"/>
+      <stop offset="100%" stop-color="#101226"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="54%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#ffe7a1" stop-opacity=".76"/>
+      <stop offset="70%" stop-color="#e59f49" stop-opacity=".09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 610c150-70 258-56 388-108 108-44 208-136 322-112 76 16 124 92 204 96 111 5 182-129 298-114 117 15 177 164 388 106v522H0z" fill="#0d112a" opacity=".84"/>
+  <path d="M0 708c200-52 328-22 490-78 130-45 232-112 350-71 91 32 157 101 269 76 147-33 268-133 491-46v411H0z" fill="#141a3f"/>
+  <g fill="#fff8d8" opacity=".32">
+    <circle cx="180" cy="118" r="5"/><circle cx="1290" cy="160" r="4"/><circle cx="1080" cy="94" r="3"/><circle cx="714" cy="142" r="4"/><circle cx="1454" cy="244" r="5"/>
+  </g>
+</svg>

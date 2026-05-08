@@ -1,0 +1,17 @@
+{
+  "name": "greek-mythology-guesser",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:assets": "node scripts/generate-assets.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node tests/data.test.mjs",
+    "check": "npm run generate:assets && npm test && npm run build"
+  },
+  "keywords": [
+    "game",
+    "greek-mythology",
+    "static-site"
+  ]
+}

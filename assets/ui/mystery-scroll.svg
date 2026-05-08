@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img">
+  <title>Mystery scroll</title>
+  <defs>
+    <linearGradient id="paper" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#e5b96a"/>
+      <stop offset="18%" stop-color="#fff1c8"/>
+      <stop offset="82%" stop-color="#f6d68e"/>
+      <stop offset="100%" stop-color="#a66d27"/>
+    </linearGradient>
+  </defs>
+  <rect x="112" y="70" width="288" height="372" rx="28" fill="url(#paper)"/>
+  <path d="M112 94c-54 0-54 72 0 72h36V94zM400 346h-36v72h36c54 0 54-72 0-72z" fill="#c88735"/>
+  <path d="M158 150h196M158 204h196M158 258h196M158 312h124" stroke="#8a5921" stroke-width="16" stroke-linecap="round" opacity=".34"/>
+  <circle cx="256" cy="252" r="82" fill="#151329" opacity=".1"/>
+  <text x="256" y="289" text-anchor="middle" font-size="120" font-family="Georgia, serif" font-weight="900" fill="#704318">?</text>
+</svg>
